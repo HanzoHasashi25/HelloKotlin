@@ -38,13 +38,14 @@ fun main() {
     var myFloat = 6.5f
 
     var myBool = false
-    myBool = true
+    // myBool = true
     println(myBool)
 
     // Constantes
 
     val myConst = "Mi propiedad constante"
     // myConst = "Mi nueva propiedad constante" Error
+    println(myConst)
 
     // Control de flujo
 
@@ -78,7 +79,7 @@ fun main() {
 
     val myMap = mutableMapOf("Camilo" to 27, "Constanza" to 27, "Jennifer" to 11)
     myMap["Nersi"] = 60
-    println(myMap["Nersi"])
+    println(myMap["Jennifer"])
 
     // Bluces
 
